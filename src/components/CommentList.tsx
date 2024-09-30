@@ -4,7 +4,7 @@ import { RootState, AppDispatch } from '../store'
 import { setComments, setLoading, setError } from '../store/commentSlice'
 import { fetchComments } from '../utils/api'
 
-import { CircularProgress, Alert } from '@mui/material'
+import { CircularProgress } from '@mui/material'
 import styles from '../styles/CommentList.module.scss'
 import CommentItem from './CommentItem'
 import toast from 'react-hot-toast'
